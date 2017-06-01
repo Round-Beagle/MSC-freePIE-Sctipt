@@ -5,6 +5,8 @@
 	# url: https://www.lfs.net/forum/post/1862759#post1862759
 	# Additional modification work by jds711
 	# url: https://www.youtube.com/watch?v=DaTrJvhTz3w
+	# This version by Randox
+	# url: http://steamcommunity.com/sharedfiles/filedetails/?id=936937766
 	# =============================================================================================
 	# This script will use only Y axis by default
 	# 1. Steering (X-Axis)
@@ -41,7 +43,7 @@ if starting:
 		else:
 			return max
 	#These were +1 and -1 in source material.
-	#You MUST use +/- 1 for My Summer Car or axis may spontaneously invert
+	#You MUST use +/- 2 for My Summer Car or axis may spontaneously invert
 	int32_max = (2 ** 14) - 2
 	int32_min = (( 2 ** 14) * -1) + 2
     
